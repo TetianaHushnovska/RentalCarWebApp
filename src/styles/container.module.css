@@ -1,0 +1,6 @@
+/* Section styles for desktop devices */
+.container{
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    padding: 0 120px 124px 120px;
+}

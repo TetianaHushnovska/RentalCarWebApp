@@ -1,0 +1,65 @@
+.label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #8d929a;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.inputFirst {
+    border: none;
+    border-right: 2px solid #dadde1;
+    border-radius: 12px 0 0 12px;
+    width: 160px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    padding: 12px 24px;
+    background: #f7f7f7;
+}
+
+.inputSecond {
+    border-radius: 0 12px 12px 0;
+    width: 160px;
+    height: 44px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+    padding: 12px 24px;
+    background: #f7f7f7;
+    border: none;
+}
+
+.inputFirst::-webkit-outer-spin-button,
+.inputFirst::-webkit-inner-spin-button,
+.inputSecond::-webkit-outer-spin-button,
+.inputSecond::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.inputFirst:focus,
+.inputSecond:focus {
+    border: none;
+    outline: none;
+}
+
+.inputFirst:focus {
+    border-right: 2px solid #dadde1;
+}
+
+.inputFirst::placeholder,
+.inputSecond::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #101828;
+}

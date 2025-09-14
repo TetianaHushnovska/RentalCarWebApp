@@ -1,0 +1,77 @@
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+    padding-top: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.booking,
+.details{
+    width: 640px;
+}
+
+.img{
+    width: 100%;
+    height: 512px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.wraper{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.title{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.id {
+    padding-top: 29px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8D929A;
+}
+
+.icon{
+    margin-right: 4px;
+}
+
+.price{
+    margin: 16px 0 32px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3470FF;
+    line-height: 32px;  
+}
+
+.desc{
+    margin-bottom: 68px;
+}
+
+.listTitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 110px;
+}
+
+.details :last-child{
+    margin-bottom: 0;
+}
